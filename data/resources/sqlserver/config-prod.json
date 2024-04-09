@@ -1,0 +1,21 @@
+{
+    "test-sqlsrv1" : {
+        "name": "test-sqlsrv1",
+        "location": "West Europe",
+        "resource_group": "test-rg-1",
+        "version": "12.0",
+        "administrator_login": "testadm",
+        "administrator_login_password": "fTgdfgdf@1d45423", /* Could also be stored in Key Vault and provided key vault refrence here. */
+        "connection_policy": "Default",
+        "subnets" : [
+            
+            {
+                "vnet_name": "test-vnet-010",
+                "name": "test-snet-010",
+                "key": "sql-vnet-test-010",
+                "resource_group": "test-rg-1"
+            }    
+        ]
+    }
+    
+}

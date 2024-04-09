@@ -1,0 +1,15 @@
+{
+    "teststgacc01" : {
+        "name": "teststgacc01",
+        "location": "West Europe",
+        "resource_group": "test-rg-2",
+        "account_tier": "Standard",
+        "default_action":"Deny",
+        "account_replication_type": "LRS",
+        "subnets": {},
+        "account_kind": "StorageV2",
+        "access_tier": "Hot"
+        
+    }
+    
+        }

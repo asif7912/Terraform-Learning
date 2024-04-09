@@ -1,0 +1,21 @@
+{
+    "test-db-001" : {
+        "sqldb01_name": "test-db-001",
+        "sqlserver01_name": "test-sqlsrv1",        
+        "sqldb01_collation": "SQL_Latin1_General_CP1_CI_AS",
+        "sqldb01_license_type": "LicenseIncluded",
+        "sqldb01_sku": "S2",
+        "sqldb01_max_size_gb": "50"  
+    },
+    "test-db-002" : {
+        "sqldb01_name": "test-db-002",
+        "sqlserver01_name": "test-sqlsrv1",        
+        "sqldb01_collation": "SQL_Latin1_General_CP1_CI_AS",
+        "sqldb01_license_type": "LicenseIncluded",
+        "sqldb01_sku": "S0",
+        "sqldb01_max_size_gb": "50"
+    }
+    
+
+
+}

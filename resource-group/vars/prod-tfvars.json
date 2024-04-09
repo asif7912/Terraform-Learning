@@ -1,0 +1,16 @@
+{
+    "environment": "Production",
+    "location": "West Europe",
+    "resource_groups":{
+        
+        "test-rg-1": {
+            "location": "West Europe",
+            "tags": { }
+        },
+        "test-rg-2": {
+            "location": "West Europe",
+            "tags": { }
+        }
+
+    }
+}
